@@ -75,9 +75,9 @@ class Program
     static void Main(string[] args)
     {
         Library library = new Library();
-        library.AddBook(new Book("1984"));
-        library.AddBook(new Book("To Kill a Mockingbird"));
-        library.AddBook(new Book("Brave New World"));
+        library.AddBook(new Book("1kla$$"));
+        library.AddBook(new Book("bob the bean"));
+        library.AddBook(new Book("my fight"));
 
         IIterator<Book> iterator = library.CreateIterator();
 
